@@ -1,0 +1,102 @@
+<html>  
+<head>  
+<style>  
+p{  
+    text-align: center;  
+    color: blue;  
+}   
+</style>  
+</head>  
+<body>  
+<p>This style will be applied on every paragraph.</p>  
+<p id="para1">Me too!</p>  
+<p>And me!</p>  
+</body>  
+
+<head>  
+<style>  
+#para1 {  
+    text-align: center;  
+    color: blue;  
+}  
+</style>
+
+</head>  
+<body>  
+<p id="para1">Hello World</p>  
+<p>This paragraph will not be affected.</p>  
+</body>  
+
+<head>  
+<style>  
+.center {  
+    text-align: center;  
+    color: blue;  
+}  
+</style>  
+</head>  
+<body>  
+<h1 class="center">This heading is blue and center-aligned.</h1>  
+<p class="center">This paragraph is blue and center-aligned.</p>   
+</body>  
+
+<head>  
+<style>  
+p.center {  
+    text-align: center;  
+    color: blue;  
+}  
+</style>  
+</head>  
+<body>  
+<h1 class="center">This heading is not affected</h1>  
+<p class="center">This paragraph is blue and center-aligned.</p>   
+</body>  
+
+<head>  
+<style>  
+* {  
+   color: green;  
+   font-size: 20px;  
+}   
+</style>  
+</head>  
+<body>  
+<h2>This is heading</h2>  
+<p>This style will be applied on every paragraph.</p>  
+<p id="para1">Good Evening</p>  
+<p>And me!</p>  
+</body>  
+<style>
+h1 {  
+    text-align: center;  
+    color: blue;  
+}  
+h2 {  
+    text-align: center;  
+    color: blue;  
+}  
+p {  
+    text-align: center;  
+    color: blue;  
+}  
+h1,h2,p {  
+    text-align: center;  
+    color: blue;  
+}  
+</style> 
+  
+<head>  
+<style>  
+h1, h2, p {  
+    text-align: center;  
+    color: blue;  
+}  
+</style>  
+</head>  
+<body>  
+<h1>Hello World</h1>  
+<h2>Hello World(In smaller font)</h2>  
+<p>This is a paragraph.</p>  
+</body>  
+</html>  
